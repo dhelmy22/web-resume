@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./Home";
+import Resume from './AllFiles/Resume';
 
 const Sidebar = (props) => {
   return (
@@ -16,6 +17,9 @@ const Sidebar = (props) => {
           <li>
             <Link to="/">Home</Link>
           </li>
+          <li>
+          <Link to="/resume">Resume</Link>
+          </li>
         </ul>
       </div>
 
@@ -23,6 +27,7 @@ const Sidebar = (props) => {
         <Switch>
           {/* <Route exact path="/Home"><Home /></Route> */}
           <Route exact path='/'><Home/></Route>
+          <Route exact path='/resume'><Resume/></Route>
         </Switch>
       </div>
     </div>

@@ -6,7 +6,7 @@ const Header = (props) => {
     
     <header>
     <Navbar className='header'>
-        <NavbarBrand href='/'><p>WelCoMe tO My bi0!</p></NavbarBrand>
+        <NavbarBrand href='/'> <p> Welcome To My Bio! </p> </NavbarBrand>
         <Nav className='ml-auto' navbar >
             
             
