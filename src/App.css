@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: white;
+  padding:1.5rem;
+}
+
+
+.headerStyling{
+  background-color: lightgrey;
+  width: 100%;
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+footer {
+  background-color: lightgrey; 
+  color: white;
+  margin: 1rem;
+  width: 100%;
+}
+
+footer  p {
+  margin-top: 0.8em!important;
+  margin-left: 1.5em;
+}
+.sidebar-list-styling{
+  padding-left: 5px;
+  padding-top: 15px;
+  width: 15%;
+  background-color: lightgrey;
+  color: white;
+  
+}
+
+.sidebar-list a{
+  color: white;
+  padding: 0;
+}
+
+.sidebar-route{ 
+  flex: 1;
+  padding: '00px'; 
+}
+.sidebar {
+  display: flex;
+  background-color:grey; 
+  margin-top: 10px;
+}
+.header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color:lightgray; 
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+.header  p {
+  margin-top: 0.8em!important;
+}
